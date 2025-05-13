@@ -11,15 +11,17 @@ export const style = StyleSheet.create({
         justifyContent : 'center',
         //padding : 20
 
-    },
+    },// é um quadrado que pega a logo + bem vindo
     boxTop:{
         height: Dimensions.get('window').height/3,
         width: '100%',
         //backgroundColor : 'red',
         alignItems:'center',
-        justifyContent: 'center'
+        justifyContent: 'center',
 
-    },
+        
+
+    },// é um quadrado que pega endereço email e senha
     boxMid:{
         height: Dimensions.get('window').height/4,
         width: '100%',
@@ -38,8 +40,8 @@ export const style = StyleSheet.create({
 
     },
     logo:{
-        width: 80, 
-        height: 80
+        width: 100, 
+        height: 100
     },
     //text é o texto de bem vindo... , margin ea diferença da logo e texto
     text:{
@@ -53,6 +55,7 @@ export const style = StyleSheet.create({
         marginLeft:5,
         color: themas.colors.gray,
         marginTop: 20
+        
 
     },
     //onde vai ser
@@ -61,20 +64,19 @@ export const style = StyleSheet.create({
         height:40,
         borderWidth:1,
         borderRadius:40,
-        marginTop:10,
+        marginTop:5,
         flexDirection: 'row',
         alignItems:'center',
         paddingHorizontal: 10,
-        backgroundColor: themas.colors.lightGray,
+        backgroundColor: themas.colors.lightGray, // muda o campo onde coloca senha e endereço
         borderColor: themas.colors.lightGray
-
     },
     input:{
         height:'100%',
         width: '90%', 
         //backgroundColor:'red',
         borderRadius:40,
-        paddingLeft:5
+        paddingLeft:10
     },
     button:{
         width:250,

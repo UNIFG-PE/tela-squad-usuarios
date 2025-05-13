@@ -35,7 +35,7 @@ function getLogin(){
                     style = {style.logo}
                     resizeMode="contain"
                 />
-                <Text style = {style.text}>Bem vindo de volta!</Text>
+                <Text style = {style.text}> Bem vindo a UNIFG! </Text>
                </View>
                <View style = {style.boxMid}>
                 <Text>ENDEREÇO DE E-MAIL</Text>
